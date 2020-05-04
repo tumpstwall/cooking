@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Небольшой домашний портал</title>
+        <link rel="stylesheet" href="css/style3.css">
+    </head>
+    <body>
+        <main class="main-container">
+            <h1>Жратушки или "Разговоры о еде"</h1>
+            <div class="tab-container">
+            <input class="radio" id="one" name="group" type="radio" checked>
+            <input class="radio" id="two" name="group" type="radio">
+            <input class="radio" id="three" name="group" type="radio">
+            <div class="tabs">
+            <label class="tab" id="one-tab" for="one">Мяско</label>
+            <label class="tab" id="two-tab" for="two">Выпечка</label>
+            <label class="tab" id="three-tab" for="three">"Быстрая еда"</label>
+                </div>
+            <div class="panels">
+            <div class="panel" id="one-panel">
+                <div class="panel-title">Скоро открытие</div>
+                <p>Мы работаем над рецептами. Спасибо за терпение))</p>
+            </div>
+            <div class="panel" id="two-panel">
+                <div class="panel-title">Скоро открытие</div>
+                <p>Мы работаем над рецептами. Спасибо за терпение))</p>
+            </div>
+            <div class="panel" id="three-panel">
+                <div class="panel-desc">
+                    <h2 class="panel-title">Быстрая еда не такая уж и быстрая</h2>
+                    <p class="panel-text">Тут мы поговорим о всяком fastfood`е. Все мы периодически заказываем домой всякие суши/роллы и пиццу, а по дороге с работы/на работу
+                        перекусываем всякими бургерами, шаурмой или шавермой (кому как нравится). Но...покупные бургеры нам маловаты, пицца не такая уж "нажористая",
+                        шаурма конечно из зажаренного мяса, но в каком виде "это мясо" пребывало в живом виде не очень-то известно.
+
+                        Так что будем кушать домашнее более полезное, более "нажористое" и с точно понятным наполнением)))
+                    </p>
+                </div>
+                <div class="posts">
+                    <div class="post">
+                        <div class="posts-additional">
+                            <img class="post-img" src="./images/pizza.jpg">
+                            <ul class="add-links">
+                                <li><a href="#">Ссылка на исходное видео (канал Сталика)</a></li>
+                                <li><a href="#openModal">Так как это готовить?</a></li>
+                            </ul>
+                        </div>
+                        <div id="openModal" class="modalDialog">
+                            <div>
+                                <a href="#close" title="Закрыть" class="close">X</a>
+                                <h2>Как это приготовить</h2>
+                                <h3>Тесто</h3>
+                                <p>Замешиваем все ингредиенты в миске и месим до тех пор, пока не перестанет прилипать к тазику. Выложить на ровную поверхность 
+                                    и оставить подходить (около 2х часов), обязательно накрыть миской или полотенцем.
+                                </p>
+                                <h3>Соус</h3>
+                                <p>Берем что-то большое, в чем можно варить, сотейник или кастрюлю и начинаем собирать там ингредиенты для соуса.
+                                    Кладем томатную пасту и насыпаем специй (у меня был молотый перец черный и базилик). Наливаем воды, чтобы состав стал достаточно жидким.
+                                    Ставим на огонь и начинаем выпаривать воду, пока вода будет выпариваться, паста насытится специями.
+                                    Периодически помешиваем, чтобы не пригорало и лучше испарялась влага. Выпариваем, пока консистенция не станет болле плотной чем паста.
+                                </p>
+                                <h3>Начинка</h3>
+                                <p>Пока подходит тесто, готовится соус, мы нарезаем ингредиеты.
+                                </p>
+                                <h3>Возвращаемся к тесту</h3>
+                                <p>Достаем наше поднявшееся тесто и раскатываем его в колбасу, чтобы можно было разделить на 6 частей.
+                                    Делим на 6 частей, из каждого куска делаем что-то похожее на шар и убираем опять под полотенце доходить минут на 30.
+                                </p>
+                                <h3>Собираем пиццу</h3>
+                                <p>Включаем духовку и ставим температуру около 240 градусов. Берем противень или другую емкость, в которой собираемся запекать.
+                                    Берем один из шариков и придаем ему форму нашей емкости или просто круглую. Я делал без скалки, просто руками разминал до нужного размера и формы.
+                                    Укладываем тесто в емкость, выкладываем соус и добавляем ингредиентов.
+                                    Ставим емкость в духовку и ожидаем минут 5 - 10.
+                                    За это время успеваем собрать следующую пиццу. Повторяем по количеству шариков с тестом и садимся кушать!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h3 class="recipe-title">Домашняя пицца</h3>
+                            <div class="recipe-small-desc">
+                                <p>Домашняя пицца - вкусная, "нажористая", с любыми ингредиентами, любой формы и размеров. Главное, запомнить две вещи:</p>
+                                <ul>
+                                    <li>если приготовишь много и вкусно, то будешь страдать из-за обжорства</li>
+                                    <li>если пригтовишь мало и вкусно, то будешь страдать из-за желания "хочется еще, а готовить уже не хочется"</li>
+                                </ul>
+                                <p>Так что надо расчитывать свои силы и возможности. Приятной вам готовки!</p>
+                            </div>
+                            <div class="recipe-data">
+                                <div class="recipe-time">
+                                    <h4>Время приготовления:</h4>
+                                    <div class="time-list">
+                                        <ul class="time-list-items">
+                                            <li class="time-list-item">
+                                                <span class="time-desc">... без учета теста, нарезки и прочего:</span>
+                                                <span class="time">от 3 мин до 10 мин</span>
+                                            </li>
+                                            <li class="time-list-item">
+                                                <span class="time-desc">... с учетом теста, нарезки и прочим:</span>
+                                                <span class="time">от 3ч 3мин до 3ч 10 минут</span>
+                                            </li>
+                                            <li class="time-list-item">
+                                                <span class="time-desc">... с учетом приготовления и уборкой после: </span>
+                                                <span class="time">ну..это как вы напачкаете</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="ingredients">
+                                    <h4>Ингредиенты</h4>
+                                    <div class="ingredients-container">
+                                        <div class="part1">
+                                            <div class="part1-title">Тесто</div>
+                                            <div class="ing-block">
+                                                <ul class="ingredients-list">
+                                                    <li class="ingredient">Мука - 1 кг</li>
+                                                    <li class="ingredient">Вода - 500 мл</li>
+                                                    <li class="ingredient">Соль - 1 чл</li>
+                                                    <li class="ingredient">Сахар - 1 стл</li>
+                                                    <li class="ingredient">Дрожжи сухие - 1 чл</li>
+                                                    <li class="ingredient">Оливковое масло (или обычное) - 50 мл</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="part2">
+                                            <div class="part2-title">Соус</div>
+                                            <div class="ing-block">
+                                                <ul class="ingredients-list">
+                                                    <li class="ingredient">Мука - 1 кг</li>
+                                                    <li class="ingredient">Вода - 500 мл</li>
+                                                    <li class="ingredient">Соль - 1 чл</li>
+                                                    <li class="ingredient">Сахар - 1 стл</li>
+                                                    <li class="ingredient">Дрожжи сухие - 1 чл</li>
+                                                    <li class="ingredient">Оливковое масло (или обычное) - 50 мл</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="part3">
+                                            <div class="part2-title">Начинка</div>
+                                            <div class="ing-block">
+                                                <ul class="ingredients-list">
+                                                    <li class="ingredient">Все, на что у вас хватит фантазии</li>
+                                                    <li class="ingredient">Мой вариант 1: Салями + сладкий перец + сладкий лук + помидоры + говядина</li>
+                                                    <li class="ingredient">Мой вариант 2: Курица + твороженный сыр + ананасы + сладкий перец</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </body>
+</html>
